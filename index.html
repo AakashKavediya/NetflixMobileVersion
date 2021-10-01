@@ -5,32 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css">
-    <title>Netflix Clone - Website Version</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Netflix Clone - Mobile Version</title>
 </head>
 
 <body>
     <header>
         <i id="icon1" class="fas fa-bars"></i>
-        <img src="./image/Netflix.png" alt="Logo">
+        <img src="./Netflix.png" alt="Netflix">
         <i id="icon2" class="fas fa-search"></i>
     </header>
     <main>
-        <article id="banner">
-            <div class="cont">
-                <h2>Batman Forever</h2>
-                <p>The plot focuses on Batman trying to stop Two-Face and the Riddler in their villainous scheme to extract confidential information from all the minds in Gotham City and use it to learn Batman's identity and bring the city under their control.</p>
-                <nav>
-                    <button id="button1"><i class="fas fa-play"></i>Play</button>
-                    <button id="button2">More Info</button>
-                </nav>
-            </div>
-        </article>
-        <div class="movies">
-            <article id="row">
-                <h2>Indian Movies</h2>
+        <div class="banner">
+            <h2>Batman Returns</h2>
+            <p>Tim Burton's "Batman Returns," even more than the original "Batman," is a dark, brooding film, filled with hurt and fear, childhood wounds and festering adult resentments. </p>
+            <nav>
+                <button id="button1"><i class="fas fa-play"></i>Play</button>
+                <button id="button2">More Info</button>
+            </nav>
+        </div>
+        <div id="linear"></div>
+        <div class="contant">
+            <article id="box1">
+                <h3>Indian Movies</h3>
+                <!-- Adding the link of the movie   -->
                 <nav>
                     <img src="https://i.pinimg.com/236x/3c/f5/02/3cf502a7381774d8f53386c8204d1442.jpg" alt="">
                     <img src="https://i.pinimg.com/236x/f7/2b/73/f72b7300dddbbeb0b69060282b59f4b4.jpg" alt="">
@@ -46,8 +55,8 @@
                     <img src="https://i.pinimg.com/236x/a5/a5/0b/a5a50bc19c097fd84cd2df7c1c1382dc.jpg" alt="">
                 </nav>
             </article>
-            <article id="row">
-                <h2>Marvel MCU</h2>
+            <article id="box1">
+                <h3>Marvel MCU</h3>
                 <nav>
                     <img src="https://i.pinimg.com/236x/45/d3/0a/45d30a5e4f5c4a84a1a6f4000b57b61e.jpg" alt="">
                     <img src="https://i.pinimg.com/236x/25/bb/fb/25bbfb163839613e883a55574a2dd090.jpg" alt="">
@@ -68,8 +77,8 @@
                     <img src="https://i.pinimg.com/236x/fc/25/21/fc25218663346c847213d7b3edb8197b.jpg" alt="">
                 </nav>
             </article>
-            <article id="row">
-                <h2>Hindi Action</h2>
+            <article id="box1">
+                <h3>Hindi Action</h3>
                 <nav>
                     <img src="https://i.pinimg.com/236x/d3/75/0a/d3750adbc06a22c14e18e55b060f15b1.jpg" />
                     <img src="https://i.pinimg.com/236x/42/0a/f9/420af95b6f2a7f71232aa1633aab1a20.jpg" />
@@ -95,8 +104,8 @@
                     <img src="https://i.pinimg.com/236x/65/ed/9c/65ed9c23d2fda7da8dd32a46d4095d6b.jpg" />
                 </nav>
             </article>
-            <article id="row">
-                <h2>Comedy Movies</h2>
+            <article id="box1">
+                <h3>Comedy Movies</h3>
                 <nav>
                     <img src="https://i.pinimg.com/236x/03/63/7f/03637f259807c87b739609ba26ee48d9.jpg" />
                     <img src="https://i.pinimg.com/236x/aa/c7/e1/aac7e1bcfbf8da8f95c46d04e3f7d249.jpg" />
@@ -119,8 +128,8 @@
                     <img src="https://i.pinimg.com/236x/70/6f/de/706fdec944cd1bceb04fde5c93159aef.jpg" />
                 </nav>
             </article>
-            <article id="row">
-                <h2>Romantic Movies</h2>
+            <article id="box1">
+                <h3>Romantic Movies</h3>
                 <nav>
                     <img src="https://i.pinimg.com/236x/7a/e8/4c/7ae84c5cb1cca60767e4e495ff3f25bc.jpg" />
                     <img src="https://i.pinimg.com/236x/3d/4a/e4/3d4ae4c4ddf189a7eb7a138b731eafe6.jpg" />
@@ -142,8 +151,8 @@
                     <img src="https://i.pinimg.com/236x/7e/4e/3e/7e4e3ebe166e8835e3a8c3e36c341289.jpg" />
                 </nav>
             </article>
-            <article id="row">
-                <h2>For Kids</h2>
+            <article id="box1">
+                <h3>For Kids</h3>
                 <nav>
                     <img src="https://i.pinimg.com/236x/c8/5a/ec/c85aecffc42ee3da05225783fe12c6b5.jpg" />
                     <img src="https://i.pinimg.com/236x/55/3e/6e/553e6e2289ec0cd70b769bb143f86360.jpg" />
@@ -162,8 +171,9 @@
                     <img src="https://i.pinimg.com/236x/45/89/82/458982be4d9e8e132e2da807f74d966e.jpg" />
                 </nav>
             </article>
-            <article id="row">
-                <h2>For You</h2>
+            <article id="box1">
+                <!-- I will provide you the link of image in discription -->
+                <h3>Movies For you</h3>
                 <nav>
                     <img src="https://i.pinimg.com/236x/00/2b/6a/002b6a4e4d53d5f958c4a1be5748633f.jpg" />
                     <img src="https://i.pinimg.com/236x/ec/67/8a/ec678aee27aecedcca1e92c43618d537.jpg" />
@@ -189,12 +199,12 @@
                     <img src="https://i.pinimg.com/236x/05/53/3a/05533add08559b94e90984ed5a17e131.jpg" />
                 </nav>
             </article>
-        </div>
-        <footer>
-            <i class="fa fa-copyright">Copy Right - Netflix - 2016 - 2025</i>
-        </footer>
-    </main>
 
+            <footer>
+                <i class="fas fa-copyright">Netflix 2016-2025</i>
+            </footer>
+        </div>
+    </main>
 </body>
 
 </html>
