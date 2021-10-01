@@ -51,8 +51,9 @@ main {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url(https://themarckoguy.files.wordpress.com/2015/01/batman-begins-the-end-of-the-evil1366x76857231.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url(https://themarckoguy.files.wordpress.com/2015/01/batman-begins-the-end-of-the-evil1366x76857231.png) no-repeat center;
     color: white;
+    background-size: cover;
 }
 
 #banner .cont h2 {
